@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Menu from '../views/Menu.vue'
+import About from '../views/About.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/globake/'),
   routes: [
     {
       path: '/',
@@ -12,6 +13,10 @@ const router = createRouter({
     {
       path: '/menu',
       component: Menu
+    },
+    {
+      path: '/about',
+      component: About
     }
   ]
 })

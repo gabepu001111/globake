@@ -23,7 +23,7 @@ const images = [image1, image2, image3, image4, image5, image6, image7, image8]
       <div class="nav-right">
         <div class="nav-links">
           <router-link to="/menu">Menu</router-link>
-          <a href="#">About</a>
+          <router-link to="/about">About</router-link>
           <a href="#">Contact</a>
         </div>
       </div>
